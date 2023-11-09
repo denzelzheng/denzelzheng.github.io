@@ -106,7 +106,7 @@
 											<ul>
 												<li>We introduce DiffCP, a novel differentiable pipeline that adopts a "real-to-sim-to-real" approach, and utilizes the Anisotropic Elasto-Plastic (A-EP) constitutive model, optimized for differentiable computation and robotic tasks.</li>
 												<li>We utilize computer vision techniques to process data captured from real-world cloth states through an RGB-D camera. This data is then projected into a differentiable simulator, enabling us to identify physics parameters by minimizing the geometric variance between the observed and target states.</li>
-												<li>We conducted extensive experiments to demonstrate the capability and stability of DiffCP in determining physics parameters under various manipulations, grasping points, and speeds.</li>
+												<li>We conduct extensive experiments to demonstrate the capability and stability of DiffCP in determining physics parameters under various manipulations, grasping points, and speeds.</li>
 												<li>We further expanded the application of DiffCP to areas like cloth material identification, manipulation trajectory generation, and notably, improving the accuracy of cloth pose estimation.</li>
 											</ul>
 										</div>
@@ -129,11 +129,11 @@
 											However, while density estimation is straightforward, viscosity estimation presents more of a challenge, particularly given the different behaviors of Newtonian and non-Newtonian fluids. 
 											To address these complexities, we have made several key contributions:							
 											<ul>
-												<li>We introduced a novel differentiable fitting framework, DiffStir, which is specifically designed to identify key physics parameters through the common daily operation of stirring.</li>
-												<li>We utilized a robotic arm for stirring and employed a differentiable Material Point Method (diffMPM)-based simulator. This allows our framework to determine fluid parameters by matching observations from the simulator with those from the real world.</li>
-												<li>We adopted an online strategy to adaptively select the most suitable constitutive model based on real-world data. This approach recognizes the distinct preferences of the Carreau, Cross, and Herschel-Bulkley models for specific fluids.</li>
-												<li>We proposed a refining neural network to bridge the simulation-to-reality gap and to mitigate inaccuracies caused by sensor noise.</li>
-												<li>We demonstrated the effectiveness of DiffStir, particularly highlighting its precision in parameter estimation when compared against reported literature values, through comprehensive experiments.</li>
+												<li>We introduce a novel differentiable fitting framework, DiffStir, which is specifically designed to identify key physics parameters through the common daily operation of stirring.</li>
+												<li>We utilize a robotic arm for stirring and employed a differentiable Material Point Method (diffMPM)-based simulator. This allows our framework to determine fluid parameters by matching observations from the simulator with those from the real world.</li>
+												<li>We adopt an online strategy to adaptively select the most suitable constitutive model based on real-world data. This approach recognizes the distinct preferences of the Carreau, Cross, and Herschel-Bulkley models for specific fluids.</li>
+												<li>We propose a refining neural network to bridge the simulation-to-reality gap and to mitigate inaccuracies caused by sensor noise.</li>
+												<li>We demonstrate the effectiveness of DiffStir, particularly highlighting its precision in parameter estimation when compared against reported literature values, through comprehensive experiments.</li>
 											</ul>
 										</div>
 									</div>
@@ -155,9 +155,9 @@
 											The system leverages a unique approach based on a garment's partial point cloud, which aids in generalizing across different garments and reducing sensitivity to texture and shape variations. 
 											Key contributions of our work include:
 											<ul>
-												<li>We developed UFONet, a neural network model that integrates unfolding and folding decisions into a single adaptable policy model. This model is designed to handle different types and states of garments.</li>
-												<li>We established a human-centric training process, conducted in two stages. The first, offline stage involves data collection through human unfolding and folding actions captured via Virtual Reality. The second, online stage fine-tunes the model in real-world settings using human-in-the-loop learning.</li>
-												<li>We carried out extensive testing of UniFolding on two types of garments: long-sleeve and short-sleeve shirts. Performance was evaluated on 20 shirts with significant variations in textures, shapes, and materials, demonstrating the system's effectiveness and robustness.</li>
+												<li>We develop UFONet, a neural network model that integrates unfolding and folding decisions into a single adaptable policy model. This model is designed to handle different types and states of garments.</li>
+												<li>We establish a human-centric training process, conducted in two stages. The first, offline stage involves data collection through human unfolding and folding actions captured via Virtual Reality. The second, online stage fine-tunes the model in real-world settings using human-in-the-loop learning.</li>
+												<li>We carry out extensive testing of UniFolding on two types of garments: long-sleeve and short-sleeve shirts. Performance is evaluated on 20 shirts with significant variations in textures, shapes, and materials, demonstrating the system's effectiveness and robustness.</li>
 											</ul>
 										</div>
 									</div>
