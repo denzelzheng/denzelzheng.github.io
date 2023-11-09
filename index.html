@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Dongzhe Zheng Personal Page</title>
+		<title>Dongzhe Zheng's Personal Page</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -22,11 +22,11 @@
 						<div class="row aln-middle">
 							<div class="col-4">
 								<h1>
-									<b>Dongzhe Zheng</b><br />
+									<b>Dongzhe&nbsp;Zheng</b><br />
 								</h1>
-								<!-- <p>
-									Stay hungry, stay foolish.<br />
-								</p> -->
+								<p>
+									Denzel Zheng<br />
+								</p>
 							</div>
 							<div class="col-3">
 								
@@ -50,8 +50,8 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="#intro" class="active">Introduction</a></li>
-							<li><a href="#first">First Section</a></li>
-							<li><a href="#second">Second Section</a></li>
+							<li><a href="#first">Research</a></li>
+							<!-- <li><a href="#second">Second Section</a></li> -->
 							<li><a href="#cta">Get Started</a></li>
 						</ul>
 					</nav>
@@ -69,10 +69,11 @@
 										<p>
                                             My name is Dongzhe Zheng. At Shanghai Jiao Tong University's MVIG lab, I delve into embodied intelligence. I explore how robots interpret variable materials in the physical world through unstructured observation. This series of work has led to the creation of self-calibrating soft-body simulation models, which improve the decision-making and responsiveness of robots when interacting with non-rigid objects. Advised by Prof. Cewu Lu. and Dr. Wenqiang Xu.
 											<br />
+											<br />
 											Using robots as platforms, I foucs transforming real-world sensory data into discrete structures simulating thought and action in computational cognitive science. This process, central to the "data-driven, computation-guided, action-realized" model, uses theories from computer graphics, vision, and physics simulation for essential feedback and support, enabling various forms of intelligence to comprehend and modify reality. I focus on applying these computations in environments closely aligned with reality or directly in empirical real-world testing.
                                         </p>
                                         <ul>
-                                            <li><b>MASt in Applied Mathematics </b>, <br />
+                                            <li><b>Master of Advanced Study in Applied Mathematics </b>, <br />
                                                 University of Cambridge, Cambridgeshire, United Kingdom, Oct. 2020 - July. 2021;</li>
                                             <li><b>Bachelor of Science in Mathematics </b>, <br />
                                                 University of New Hampshire, New Hampshire, United States, Aug. 2015 - Jun. 2020.</li>
@@ -92,20 +93,21 @@
 									<div class="row">
 										<div class="col-3 col-12-medium">
 											<h3><b>Differentiable Cloth Parameter Identification and State Estimation in Manipulation</b></h3>
-											<!-- <b>Source code of paper RFUniverse</b><br /> -->
 											<a href="https://drive.google.com/file/d/1BURt9aiT2OdHn-P_FsSXGxX7nzkbhsFK/view?usp=sharing" class="icon solid fa-file-pdf"> PDF</a><br/>
 											<a href="https://sites.google.com/view/diffcp" class="icon solid fa-link"> Project</a><br />
 											<a href="https://github.com/denzelzheng/diffcp" class="icon brands fa-github"> Code</a><br />
 										</div>
 										<div class="col-9 col-12-medium">
-											In the realm of robotic cloth manipulation, accurately estimating the cloth state during or post-execution is imperative. However, the inherent complexities in a cloth's dynamic behavior and its near-infinite degrees of freedom (DoF) pose significant challenges. Traditional methods have been restricted to using keypoints or boundaries as cues for cloth state, which do not holistically capture the cloth's structure, especially during intricate tasks like folding. Additionally, the critical influence of cloth physics has often been overlooked in past research. Addressing these concerns, we introduce DiffCP, a novel differentiable pipeline that leverages the Anisotropic Elasto-Plastic (A-EP) constitutive model, tailored for differentiable computation and robotic tasks. DiffCP adopts a "real-to-sim-to-real'' methodology. By observing real-world cloth states through an RGB-D camera and projecting this data into a differentiable simulator, the system identifies physics parameters by minimizing the geometric variance between observed and target states. Extensive experiments demonstrate DiffCP's ability and stability to determine physics parameters under varying manipulations, grasping points, and speeds. Additionally, its applications extend to cloth material identification, manipulation trajectory generation, and more notably, enhancing cloth pose estimation accuracy.
-											<br />
-											<!-- xxx -->
-											<!-- <ul>
-												<li>xxx</li>
-												<li>xxx</li>
-												<li>xxx</li>
-											</ul> -->
+											In the field of robotic cloth manipulation, accurately estimating the cloth state during or after execution is crucial. 
+											However, the inherent complexities of cloth's dynamic behavior and its nearly infinite degrees of freedom pose significant challenges. 
+											Traditional methods have often been limited to using keypoints or boundaries as indicators of cloth state, which do not fully capture the cloth's structure, especially during complex tasks like folding. 
+											Moreover, the critical influence of cloth physics has often been overlooked in previous research. To address these issues, we introduce several key contributions:
+											<ul>
+												<li>We introduce DiffCP, a novel differentiable pipeline that utilizes the Anisotropic Elasto-Plastic (A-EP) constitutive model, optimized for differentiable computation and robotic tasks.</li>
+												<li>DiffCP adopts a "real-to-sim-to-real" approach. By observing real-world cloth states through an RGB-D camera and projecting this data into a differentiable simulator, the system identifies physics parameters by minimizing the geometric variance between the observed and target states.</li>
+												<li>Our extensive experiments demonstrate DiffCP's ability and stability in determining physics parameters under varying manipulations, grasping points, and speeds.</li>
+												<li>Furthermore, its applications extend to cloth material identification, manipulation trajectory generation, and notably, improving the accuracy of cloth pose estimation.</li>
+											</ul>
 										</div>
 									</div>
 								</section>
@@ -117,20 +119,22 @@
 									<div class="row">
 										<div class="col-3 col-12-medium">
 											<h3><b>Differentiable Fluid Physics Parameter Identification Via Stirring</b></h3>
-											<!-- <b>Source code of paper RFUniverse</b><br /> -->
 											<a href="https://drive.google.com/file/d/1E5_E0vdSIHYpkf_m13W1hzhILWshfmmu/view?usp=sharing" class="icon solid fa-file-pdf"> PDF</a><br/>
 											<a href="https://sites.google.com/view/diffstir" class="icon solid fa-link"> Project</a><br />
 											<a href="https://github.com/denzelzheng/DiffStir" class="icon brands fa-github"> Code</a><br />
 										</div>
 										<div class="col-9 col-12-medium">
-											Fluid interactions permeate daily human activities, with properties like density and viscosity playing pivotal roles in household tasks. While density estimation is straightforward through Archimedes' principle, viscosity poses a more intricate challenge, especially given the varied behaviors of Newtonian and non-Newtonian fluids. These fluids, which differ in their stress-strain relationships, are delineated by specific constitutive models such as the Carreau, Cross, and Herschel-Bulkley models, each possessing unique viscosity parameters. This study introduces a novel differentiable fitting framework, DiffStir, tailored to identify key physics parameters via the common daily operation of stirring. By employing a robotic arm for stirring and harnessing a differentiable Material Point Method (diffMPM)-based simulator, the framework can determine fluid parameters by matching observations from both the simulator and the real world. Recognizing the distinct preferences of the aforementioned constitutive models for specific fluids, an online strategy was adopted to adaptively select the most fitting model based on real-world data. Additionally, we propose a refining neural network to bridge the sim-to-real gap and mitigate sensor noise-induced inaccuracies. Comprehensive experiments were conducted to validate the efficacy of DiffStir, showcasing its precision in parameter estimation when benchmarked against reported literature values.
-											<br />
-											<!-- xxx
+
+											Fluid interactions are a fundamental part of our daily lives, with properties like density and viscosity playing crucial roles. 
+											However, while density estimation is straightforward, viscosity estimation presents more of a challenge, particularly given the different behaviors of Newtonian and non-Newtonian fluids. 
+											To address these complexities, we have made several key contributions:							
 											<ul>
-												<li>xxx</li>
-												<li>xxx</li>
-												<li>xxx</li>
-											</ul> -->
+												<li>We introduced a novel differentiable fitting framework, DiffStir, which is specifically designed to identify key physics parameters through the common daily operation of stirring.</li>
+												<li>We utilized a robotic arm for stirring and employed a differentiable Material Point Method (diffMPM)-based simulator. This allows our framework to determine fluid parameters by matching observations from the simulator with those from the real world.</li>
+												<li>We adopted an online strategy to adaptively select the most suitable constitutive model based on real-world data. This approach recognizes the distinct preferences of the Carreau, Cross, and Herschel-Bulkley models for specific fluids.</li>
+												<li>We proposed a refining neural network to bridge the simulation-to-reality gap and to mitigate inaccuracies caused by sensor noise.</li>
+												<li>Through comprehensive experiments, we demonstrated the effectiveness of DiffStir, particularly highlighting its precision in parameter estimation when compared against reported literature values.</li>
+											</ul>
 										</div>
 									</div>
 								</section>
@@ -141,20 +145,19 @@
 									<div class="row">
 										<div class="col-3 col-12-medium">
 											<h3><b>UniFolding: Towards Sample-efficient, Scalable, and Generalizable Robotic Garment Folding</b></h3>
-											<!-- <b>Source code of paper RFUniverse</b><br /> -->
 											<a href="https://arxiv.org/pdf/2311.01267.pdf" class="icon solid fa-file-pdf"> PDF</a><br/>
 											<a href="https://unifolding.robotflow.ai/" class="icon solid fa-link"> Project</a><br />
 											<a href="https://github.com/xiaoxiaoxh/UniFolding" class="icon brands fa-github"> Code</a><br />
 										</div>
 										<div class="col-9 col-12-medium">
-											UniFolding is a sample-efficient, scalable, and generalizable robotic system for unfolding and folding various garments. UniFolding employs the proposed UFONet neural network to integrate unfolding and folding decisions into a single policy model that is adaptable to different garment types and states. The design of UniFolding is based on a garment’s partial point cloud, which aids in generalization and reduces sensitivity to variations in texture and shape. The training pipeline prioritizes low-cost, sampleefficient data collection. Training data is collected via a human-centric process with offline and online stages. The offline stage involves human unfolding and folding actions via Virtual Reality, while the online stage utilizes human-in-theloop learning to fine-tune the model in a real-world setting. The system is tested on two garment types: long-sleeve and short-sleeve shirts. Performance is evaluated on 20 shirts with significant variations in textures, shapes, and materials.
-											<br />
-											<!-- xxx -->
-											<!-- <ul>
-												<li>xxx</li>
-												<li>xxx</li>
-												<li>xxx</li>
-											</ul> -->
+											UniFolding is a novel robotic system that brings efficiency, scalability, and generalizability to the task of unfolding and folding various types of garments. 
+											The system leverages a unique approach based on a garment's partial point cloud, which aids in generalizing across different garments and reducing sensitivity to texture and shape variations. 
+											Key contributions of our work include:
+											<ul>
+												<li>We developed UFONet, a neural network model that integrates unfolding and folding decisions into a single adaptable policy model. This model is designed to handle different types and states of garments.</li>
+												<li>We established a human-centric training process, conducted in two stages. The first, offline stage involves data collection through human unfolding and folding actions captured via Virtual Reality. The second, online stage fine-tunes the model in real-world settings using human-in-the-loop learning.</li>
+												<li>We carried out extensive testing of UniFolding on two types of garments: long-sleeve and short-sleeve shirts. Performance was evaluated on 20 shirts with significant variations in textures, shapes, and materials, demonstrating the system's effectiveness and robustness.</li>
+											</ul>
 										</div>
 									</div>
 								</section>
@@ -194,16 +197,24 @@
 						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer> -->
 
-			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 
-	</body>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+				</footer>
+
+		</div>
+
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+</body>
 </html>
