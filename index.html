@@ -103,17 +103,15 @@
 											Traditional methods have often been limited to using keypoints or boundaries as indicators of cloth state, which do not fully capture the cloth's structure, especially during complex tasks like folding. 
 											Moreover, the critical influence of cloth physics has often been overlooked in previous research. To address these issues, we introduce several key contributions:
 											<ul>
-												<li>We introduce DiffCP, a novel differentiable pipeline that utilizes the Anisotropic Elasto-Plastic (A-EP) constitutive model, optimized for differentiable computation and robotic tasks.</li>
-												<li>DiffCP adopts a "real-to-sim-to-real" approach. By observing real-world cloth states through an RGB-D camera and projecting this data into a differentiable simulator, the system identifies physics parameters by minimizing the geometric variance between the observed and target states.</li>
-												<li>Our extensive experiments demonstrate DiffCP's ability and stability in determining physics parameters under varying manipulations, grasping points, and speeds.</li>
-												<li>Furthermore, its applications extend to cloth material identification, manipulation trajectory generation, and notably, improving the accuracy of cloth pose estimation.</li>
+												<li>We introduce DiffCP, a novel differentiable pipeline that adopts a "real-to-sim-to-real" approach, and utilizes the Anisotropic Elasto-Plastic (A-EP) constitutive model, optimized for differentiable computation and robotic tasks.</li>
+												<li>We utilize computer vision techniques to process data captured from real-world cloth states through an RGB-D camera. This data is then projected into a differentiable simulator, enabling us to identify physics parameters by minimizing the geometric variance between the observed and target states.</li>
+												<li>We conducted extensive experiments to demonstrate the capability and stability of DiffCP in determining physics parameters under various manipulations, grasping points, and speeds.</li>
+												<li>We further expanded the application of DiffCP to areas like cloth material identification, manipulation trajectory generation, and notably, improving the accuracy of cloth pose estimation.</li>
 											</ul>
 										</div>
 									</div>
 								</section>
 								<hr />
-
-
 
 								<section>
 									<div class="row">
@@ -133,7 +131,7 @@
 												<li>We utilized a robotic arm for stirring and employed a differentiable Material Point Method (diffMPM)-based simulator. This allows our framework to determine fluid parameters by matching observations from the simulator with those from the real world.</li>
 												<li>We adopted an online strategy to adaptively select the most suitable constitutive model based on real-world data. This approach recognizes the distinct preferences of the Carreau, Cross, and Herschel-Bulkley models for specific fluids.</li>
 												<li>We proposed a refining neural network to bridge the simulation-to-reality gap and to mitigate inaccuracies caused by sensor noise.</li>
-												<li>Through comprehensive experiments, we demonstrated the effectiveness of DiffStir, particularly highlighting its precision in parameter estimation when compared against reported literature values.</li>
+												<li>We demonstrated the effectiveness of DiffStir, particularly highlighting its precision in parameter estimation when compared against reported literature values, through comprehensive experiments.</li>
 											</ul>
 										</div>
 									</div>
