@@ -1,0 +1,249 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Dongzhe Zheng's Personal Page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<div class="row aln-middle">
+							<div class="col-4">
+								<h1>
+									<b>Dongzhe&nbsp;Zheng</b><br />
+								</h1>
+								<p>
+									Denzel Zheng<br />
+								</p>
+							</div>
+							<div class="col-3">
+								
+							</div>
+							<div class="col-5">
+								<ul class="icons">
+									<li><a href="https://github.com/denzelzheng" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+									<!-- <li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li> -->
+								</ul>
+								<p>
+									Email: <a href="mailto: dz1011@wildcats.unh.edu">dz1011@wildcats.unh.edu</a>
+								</p>
+							</div>
+						</div>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">Introduction</a></li>
+							<li><a href="#first">Research</a></li>
+							<li><a href="#second">Honors</a></li>
+							<li><a href="#cta">Get Started</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>About me</h2>
+										</header>
+										<p>
+                                            I am Dongzhe Zheng, currently serving as a Research Associate in the <a href="https://robotflow.ai/">RobotFlow project</a> at the <a href="https://www.mvig.org/">MIVG lab</a> of Shanghai Jiao Tong University. 
+											Under the guidance of <a href="https://www.mvig.org/">Prof. Cewu Lu</a> and <a href="https://wenqiangx.github.io/">Dr. Wenqiang Xu</a>, I am deeply engaged in the research of embodied intelligence.
+											I explore how robots understand variable materials in the physical world through unstructured observation. This series of work has led to the creation of self-calibrating soft-body simulation models, which improve the decision-making and responsiveness of robots when interacting with non-rigid objects.
+											<br />
+											<br />
+											With a goal of exploring how intelligence can perceive, recognize, and understand the physical reality, I use robots as platforms, 
+											focusing on transforming real-world sensory data into discrete structures that simulate thought and action in computational cognitive science.  
+											This process, central to the "data-driven, computation-guided, action-realized" model, uses theories from computer graphics, vision, and physics simulation for essential stimulation and guidance, 
+											enabling various forms of intelligence to comprehend and modify reality. I focus on applying these computations in environments closely aligned with reality or directly in empirical real-world testing.
+                                        </p>
+                                        <ul>
+                                            <li><b>Master of Advanced Study in Applied Mathematics </b> <br />
+                                                University of Cambridge, Cambridgeshire, United Kingdom, Oct. 2020 - July. 2021;</li>
+                                            <li><b>Bachelor of Science in Mathematics </b> <br />
+                                                University of New Hampshire, New Hampshire, United States, Aug. 2015 - Jun. 2020.</li>
+                                        </ul>
+									</div>
+									<span class="image"><img src="images/IMG_1286.jpg" alt="" /></span>
+								</div>
+							</section>
+
+						
+						<!-- Research -->
+							<section id="first" class="main">
+								<header class="major special">
+									<h2>Research</h2>
+								</header>
+								<section>
+									<div class="row">
+										<div class="col-4 col-12-medium">
+											<h3><b>Differentiable Cloth Parameter Identification and State Estimation in Manipulation</b></h3>
+											<p>Dongzhe Zheng*, Siqiong Yao*, Wenqiang Xu, Cewu Lu</p>
+											<a href="https://arxiv.org/pdf/2311.05141.pdf" class="icon solid fa-file-pdf"> PDF</a><br/>
+											<a href="https://sites.google.com/view/diffcp" class="icon solid fa-link"> Project</a><br />
+											<a href="https://github.com/denzelzheng/diffcp" class="icon brands fa-github"> Code</a><br />
+										</div>
+										<div class="col-8 col-12-medium">
+											In the field of robotic cloth manipulation, accurately estimating the cloth state during or after execution is crucial. 
+											However, the inherent complexities of cloth's dynamic behavior and its nearly infinite degrees of freedom pose significant challenges. 
+											Traditional methods have often been limited to using keypoints or boundaries as indicators of cloth state, which do not fully capture the cloth's structure, especially during complex tasks like folding. 
+											Moreover, the critical influence of cloth physics has often been overlooked in previous research. To address these issues, we introduce several key contributions:
+											<ul>
+												<li>We introduce DiffCP, a novel differentiable pipeline that adopts a "real-to-sim-to-real" approach, and utilizes the Anisotropic Elasto-Plastic (A-EP) constitutive model, optimized for differentiable computation and robotic tasks.</li>
+												<li>We utilize computer vision techniques to process data captured from real-world cloth states through an RGB-D camera. This data is then projected into a differentiable simulator, enabling us to identify physics parameters by minimizing the geometric variance between the observed and target states.</li>
+												<li>We conduct extensive experiments to demonstrate the capability and stability of DiffCP in determining physics parameters under various manipulations, grasping points, and speeds.</li>
+												<li>We further expanded the application of DiffCP to areas like cloth material identification, manipulation trajectory generation, and notably, improving the accuracy of cloth pose estimation.</li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<hr />
+
+								<section>
+									<div class="row">
+										<div class="col-4 col-12-medium">
+											<h3><b>Differentiable Fluid Physics Parameter Identification Via Stirring</b></h3>
+											<p>Wenqiang Xu*, Dongzhe Zheng*, Yutong Li, Jieji Ren, Cewu Lu</p>
+											<a href="https://arxiv.org/pdf/2311.05137.pdf" class="icon solid fa-file-pdf"> PDF</a><br/>
+											<a href="https://sites.google.com/view/diffstir" class="icon solid fa-link"> Project</a><br />
+											<a href="https://github.com/denzelzheng/DiffStir" class="icon brands fa-github"> Code</a><br />
+										</div>
+										<div class="col-8 col-12-medium">
+
+											Fluid interactions are a fundamental part of our daily lives, with properties like density and viscosity playing crucial roles. 
+											However, while density estimation is straightforward, viscosity estimation presents more of a challenge, particularly given the different behaviors of Newtonian and non-Newtonian fluids. 
+											To address these complexities, we have made several key contributions:							
+											<ul>
+												<li>We introduce a novel differentiable fitting framework, DiffStir, which is specifically designed to identify key physics parameters through the common daily operation of stirring.</li>
+												<li>We utilize a robotic arm for stirring and employed a differentiable Material Point Method (diffMPM)-based simulator. This allows our framework to determine fluid parameters by matching observations from the simulator with those from the real world.</li>
+												<li>We adopt an online strategy to adaptively select the most suitable constitutive model based on real-world data. This approach recognizes the distinct preferences of the Carreau, Cross, and Herschel-Bulkley models for specific fluids.</li>
+												<li>We propose a refining neural network to bridge the simulation-to-reality gap and to mitigate inaccuracies caused by sensor noise.</li>
+												<li>We demonstrate the effectiveness of DiffStir, particularly highlighting its precision in parameter estimation when compared against reported literature values, through comprehensive experiments.</li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<hr />
+
+
+								<section>
+									<div class="row">
+										<div class="col-4 col-12-medium">
+											<h3><b>UniFolding: Towards Sample-efficient, Scalable, and Generalizable Robotic Garment Folding</b></h3>
+											<p>Han Xue*, Yutong Li*, Wenqiang Xu, Huanyu Li, Dongzhe Zheng, Cewu Lu</p>
+											<a href="https://arxiv.org/pdf/2311.01267.pdf" class="icon solid fa-file-pdf"> PDF</a><br/>
+											<a href="https://unifolding.robotflow.ai/" class="icon solid fa-link"> Project</a><br />
+											<a href="https://github.com/xiaoxiaoxh/UniFolding" class="icon brands fa-github"> Code</a><br />
+										</div>
+										<div class="col-8 col-12-medium">
+											UniFolding is a novel robotic system that brings efficiency, scalability, and generalizability to the task of unfolding and folding various types of garments. 
+											The system leverages a unique approach based on a garment's partial point cloud, which aids in generalizing across different garments and reducing sensitivity to texture and shape variations. 
+											Key contributions of our work include:
+											<ul>
+												<li>We develop UFONet, a neural network model that integrates unfolding and folding decisions into a single adaptable policy model. This model is designed to handle different types and states of garments.</li>
+												<li>We establish a human-centric training process, conducted in two stages. The first, offline stage involves data collection through human unfolding and folding actions captured via Virtual Reality. The second, online stage fine-tunes the model in real-world settings using human-in-the-loop learning.</li>
+												<li>We carry out extensive testing of UniFolding on two types of garments: long-sleeve and short-sleeve shirts. Performance is evaluated on 20 shirts with significant variations in textures, shapes, and materials, demonstrating the system's effectiveness and robustness.</li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<!-- <hr /> -->
+							</section>
+							
+						<!-- Honors -->
+						<section id="second" class="main">
+							<header class="major special">
+								<h2>Honors</h2>
+							</header>
+							<section>
+								<div class="row">
+									<!-- <div class="col-3 col-12-medium">
+										<h3><b>University of New Hampshire</b></h3>
+									</div> -->
+									<div class="col-12 col-12-medium">
+										<ul>
+											<li>Named to the University of New Hampshire Dean's List for earning High Honors in the Fall Semester of 2019.</li>
+											<li>Named to the University of New Hampshire Dean's List for earning the Highest Honors in the Spring Semester of 2019.</li>
+											<li>Named to the University of New Hampshire Dean's List for earning the Highest Honors in the Fall Semester of 2018.</li>
+										</ul>
+									</div>
+								</div>
+							</section>
+							<!-- <hr /> -->
+						</section>
+
+
+
+					</div>
+
+				<!-- Footer -->
+					<!-- <footer id="footer">
+						<section>
+							<h2>Aliquam sed mauris</h2>
+							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn More</a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>Etiam feugiat</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
+								<dt>Phone</dt>
+								<dd>(000) 000-0000 x 0000</dd>
+								<dt>Email</dt>
+								<dd><a href="#">information@untitled.tld</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer> -->
+
+
+
+
+				<!-- Footer -->
+				<footer id="footer">
+					<p class="copyright">&copy; Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+				</footer>
+
+		</div>
+
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+</body>
+</html>
